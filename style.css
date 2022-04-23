@@ -1,0 +1,35 @@
+
+body {
+    font-family: 'Open Sans', sans-serif;
+    font-size: 14px;
+    background-color: #F2F2F2;
+}
+
+.main {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    height: auto;
+}
+.header{
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+.section-input input {
+    width: 400px;
+    padding: 12px 20px;
+    margin: 8px 0;
+    box-sizing: border-box;
+}
+.section-list {
+    margin: 20px;
+}
+
+.list li{
+    display: inline;
+    border: solid #000 1px;
+    padding: 10px;
+    margin: 5px;
+}
